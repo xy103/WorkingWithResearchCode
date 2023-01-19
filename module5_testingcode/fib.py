@@ -19,10 +19,3 @@ def fib_cached(x):
         cache[x] = val
         return val
 
-
-if __name__ == '__main__':
-    assert fib(0) == 0
-    assert fib(1) == 1
-    assert fib(2) == 1
-    assert fib(6) == 8
-    print("Tests passed")
